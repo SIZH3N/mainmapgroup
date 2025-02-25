@@ -3358,7 +3358,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"marketing List"
+                         "value":"doorenajaf list"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -3409,7 +3409,7 @@
                         }],
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":30.3334,
                  "x":735.166633333333,
                  "y":229.666666666667
@@ -3451,7 +3451,7 @@
                         }],
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":30.3334,
                  "x":668.166633333333,
                  "y":230
@@ -3460,6 +3460,48 @@
                  "height":25,
                  "id":298,
                  "name":"marketingA List",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/12Z_cypyFSZoXqebMlD59EEsWM4Rgl1s_\/edit?gid=821124614#gid=821124614"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"alata list"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"int",
+                         "value":40
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":27.8334,
+                 "x":34.666633333333,
+                 "y":230.5
+                }, 
+                {
+                 "height":25,
+                 "id":299,
+                 "name":"marketingB List",
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -3484,7 +3526,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"List"
+                         "value":"school list"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -3495,7 +3537,7 @@
                  "type":"area",
                  "visible":true,
                  "width":27.8334,
-                 "x":34.666633333333,
+                 "x":65.166633333333,
                  "y":230.5
                 }],
          "opacity":1,
@@ -3661,7 +3703,7 @@
          "y":0
         }],
  "nextlayerid":249,
- "nextobjectid":299,
+ "nextobjectid":300,
  "orientation":"orthogonal",
  "properties":[
         {
