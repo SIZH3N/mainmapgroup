@@ -3080,48 +3080,6 @@
             
                 {
                  "height":21.6666666666666,
-                 "id":286,
-                 "name":"amirhosseintilelist",
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/1PouragLC_6TUdSWugxaDgqbFBsVfzWPdYFNxff1q0Y8\/edit?gid=0#gid=0"
-                        }, 
-                        {
-                         "name":"openWebsiteClosable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openWebsitePolicy",
-                         "type":"string",
-                         "value":"fullscreen"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Tile list"
-                        }, 
-                        {
-                         "name":"openWebsiteWidth",
-                         "type":"int",
-                         "value":50
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":27.3333,
-                 "x":326.33335,
-                 "y":705.833333333333
-                }, 
-                {
-                 "height":21.6666666666666,
                  "id":293,
                  "name":"parsa-seo",
                  "properties":[
@@ -3244,7 +3202,7 @@
                  "visible":true,
                  "width":37.5151181818183,
                  "x":897.666683333333,
-                 "y":785.833333333334
+                 "y":771.833333333334
                 }, 
                 {
                  "height":27.9090909090909,
@@ -3285,8 +3243,8 @@
                  "type":"area",
                  "visible":true,
                  "width":37.5151181818183,
-                 "x":898.33335,
-                 "y":816.560606060607
+                 "x":898.08335,
+                 "y":803.810606060607
                 }, 
                 {
                  "height":30.6667,
@@ -3375,12 +3333,12 @@
                 {
                  "height":26,
                  "id":290,
-                 "name":"marketing3 List",
+                 "name":"SabzewariList",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/1ilWviA658PvkKhcyYsNobJlFua43LfrkQmpTtgAA-wg\/edit?pli=1&gid=1482031669#gid=1482031669"
+                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/1zz_7QD1m-YJH5IUkzABDFLVApxi17Km_P4Uis0HQMpQ\/edit?gid=0#gid=0"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -3400,7 +3358,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"marketing List"
+                         "value":"Sabzewari List"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -3409,20 +3367,20 @@
                         }],
                  "rotation":0,
                  "type":"area",
-                 "visible":false,
+                 "visible":true,
                  "width":30.3334,
-                 "x":735.166633333333,
-                 "y":229.666666666667
+                 "x":755.8333,
+                 "y":229
                 }, 
                 {
                  "height":26,
                  "id":291,
-                 "name":"marketing1 List",
+                 "name":"LettersList",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/166fQURyc-BerE4svbjZyJ3ZwXGA_Snd7zLvUbdmX3HM\/edit?pli=1&gid=541890420#gid=541890420"
+                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/1GpMQkdmTBQt4vmo8hfkYa7sbPlrEQctM2NiaD9Isin0\/edit?gid=0#gid=0"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -3442,7 +3400,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"marketing List"
+                         "value":"Letters List"
                         }, 
                         {
                          "name":"openWebsiteWidth",
@@ -3451,10 +3409,10 @@
                         }],
                  "rotation":0,
                  "type":"area",
-                 "visible":false,
+                 "visible":true,
                  "width":30.3334,
-                 "x":668.166633333333,
-                 "y":230
+                 "x":609.499966666666,
+                 "y":560.666666666667
                 }, 
                 {
                  "height":25,
