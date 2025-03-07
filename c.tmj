@@ -2784,7 +2784,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/166fQURyc-BerE4svbjZyJ3ZwXGA_Snd7zLvUbdmX3HM\/edit?gid=541890420#gid=541890420"
+                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/1UYD4xsOD8CLaVOwnHxrulNdz9L6qHmchjlMn7dYbRoI\/edit?gid=0#gid=0"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -2804,7 +2804,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"List"
+                         "value":"Self Financial List"
                         }, 
                         {
                          "name":"openWebsiteWidth",
