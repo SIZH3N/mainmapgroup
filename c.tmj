@@ -4154,7 +4154,37 @@
          "spacing":0,
          "tilecount":270,
          "tileheight":32,
-         "tilewidth":32
+         "tilewidth":32,
+         "wangsets":[
+                {
+                 "colors":[
+                        {
+                         "color":"#ff0000",
+                         "name":"",
+                         "probability":1,
+                         "tile":-1
+                        }],
+                 "name":"Unnamed Set",
+                 "tile":-1,
+                 "type":"mixed",
+                 "wangtiles":[
+                        {
+                         "tileid":177,
+                         "wangid":[0, 0, 1, 1, 1, 1, 1, 0]
+                        }, 
+                        {
+                         "tileid":178,
+                         "wangid":[0, 0, 1, 1, 1, 1, 1, 0]
+                        }, 
+                        {
+                         "tileid":187,
+                         "wangid":[1, 1, 1, 0, 0, 0, 1, 1]
+                        }, 
+                        {
+                         "tileid":188,
+                         "wangid":[1, 1, 1, 0, 0, 0, 1, 1]
+                        }]
+                }]
         }, 
         {
          "columns":7,
