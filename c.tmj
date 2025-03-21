@@ -4669,9 +4669,16 @@
                  "class":"area",
                  "colors":[
                         {
+                         "class":"area",
                          "color":"#ff0000",
-                         "name":"",
+                         "name":"block",
                          "probability":1,
+                         "properties":[
+                                {
+                                 "name":"collides",
+                                 "type":"bool",
+                                 "value":true
+                                }],
                          "tile":-1
                         }],
                  "name":"Unnamed Set",
