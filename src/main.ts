@@ -10,6 +10,9 @@ console.log('Script started successfully');
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
+    const currentUrl = new URL(window.location.href);
+    console.log(currentUrl.href); // Full URL
+
     
     if(WA.player.tags.includes("team")) {
         WA.player.setOutlineColor(0, 119, 141);
