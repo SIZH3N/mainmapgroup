@@ -38,7 +38,12 @@ WA.onInit().then(() => {
     
 }).catch(e => console.error(e));
 
-await  levelUp("Up-time-meta",1);
-   console.log('Level up Up-time-meta');
+function levelup(){
+    levelUp("Up-time-meta",1);
+    //console.log('*************************Level up Up-time-meta');
+}
+
+setInterval(levelup, 1000);
+
 
 export {};
