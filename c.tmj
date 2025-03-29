@@ -2652,6 +2652,48 @@
                  "y":769.25
                 }, 
                 {
+                 "height":22.5757575757577,
+                 "id":318,
+                 "name":"Videographylink",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/1Psp9zQSlPRsrHzaUrImb_0S5fV1wYelfSXbsLg9nM2I\/edit?gid=0#gid=0"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Videography"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"int",
+                         "value":50
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":26.2424242424242,
+                 "x":609.780303030303,
+                 "y":765.75
+                }, 
+                {
                  "height":35,
                  "id":276,
                  "name":"s.amirhosseinlist",
@@ -3102,7 +3144,8 @@
                  "width":254,
                  "x":0.666666666666663,
                  "y":736.666666666667
-                }, 
+                },
+            
                 {
                  "height":76,
                  "id":277,
@@ -3129,8 +3172,7 @@
                  "width":68.6666666666667,
                  "x":-2,
                  "y":732
-                },
-            
+                }, 
                 {
                  "height":35.3333333333334,
                  "id":285,
@@ -4001,7 +4043,7 @@
          "y":0
         }],
  "nextlayerid":252,
- "nextobjectid":318,
+ "nextobjectid":319,
  "orientation":"orthogonal",
  "properties":[
         {
