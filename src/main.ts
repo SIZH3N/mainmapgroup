@@ -43,7 +43,7 @@ function levelup(){
     //console.log('*************************Level up Up-time-meta');
 }
 
-setInterval(levelup, 1000);
+setInterval(levelup, 15000);
 
 
 export {};
