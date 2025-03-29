@@ -3,14 +3,14 @@
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 import { openPopup , closePopup} from "./c";
-import {day_night_cycle} from "./b";
+import { day_night_cycle } from "./b";
 import { levelUp } from "@workadventure/quests";
 
 console.log('Script started successfully');
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
-
+    
     if(WA.player.tags.includes("team")) {
         WA.player.setOutlineColor(0, 119, 141);
     }
@@ -22,12 +22,12 @@ WA.onInit().then(() => {
         openPopup(currentZone, currentZone + 'Popup');
     });
     
-    levelUp('Up-time-meta',1);
     WA.room.area.onLeave('fireplacezone').subscribe(() => {
         closePopup();
     });
-
     
+    levelUp("Up-time-meta",1);
+    console.log('Level up Up-time-meta');
     //This function will automatically change day mode into night mode
     //folders for the inputs: first day folder, second night folder.
     //In each folder, the layers should be related to the state of day and night.
