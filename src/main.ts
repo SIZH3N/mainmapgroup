@@ -10,17 +10,6 @@ console.log('Script started successfully');
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
-    let actualUrl: string;
-
-    try {
-        // Attempt to get the parent page's URL
-        actualUrl = window.parent.location.href;
-    } catch (e) {
-        // Fallback to the iframe's URL if cross-origin restrictions apply
-        actualUrl = window.location.href;
-    }
-
-    console.log('______________________Actual URL:', actualUrl);
     
     if(WA.player.tags.includes("team")) {
         WA.player.setOutlineColor(0, 119, 141);
