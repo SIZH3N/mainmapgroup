@@ -26,18 +26,19 @@ WA.onInit().then(() => {
         closePopup();
     });
     
-    levelUp("Up-time-meta",1);
-    console.log('Level up Up-time-meta');
     //This function will automatically change day mode into night mode
     //folders for the inputs: first day folder, second night folder.
     //In each folder, the layers should be related to the state of day and night.
     day_night_cycle("","");
-
+    
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
-
+    
 }).catch(e => console.error(e));
+
+await  levelUp("Up-time-meta",1);
+   console.log('Level up Up-time-meta');
 
 export {};
