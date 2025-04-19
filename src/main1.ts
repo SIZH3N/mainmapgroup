@@ -9,8 +9,8 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-    const mapUrl = WA.room.mapURL
-    const root = mapUrl.substring(0, mapUrl.lastIndexOf("/"))
+    // const mapUrl = WA.room.mapURL
+    // const root = mapUrl.substring(0, mapUrl.lastIndexOf("/"))
     //let currentMapName = "campus"
 
     if(WA.player.tags.includes("admin")) {
@@ -57,41 +57,41 @@ WA.onInit().then(() => {
         WA.room.showLayer("basMurs/basReunionA")
     })
 
-    // Bouton guide
-    console.log('Ajout du bouton Guide utilisateur');
-    WA.ui.actionBar.addButton({
-        id: 'help-btn',
-        type: 'action',
-        imageSrc: root + '/help.svg',
-        toolTip: "Guide utilisateur",
-        callback: () => {
-            WA.ui.modal.openModal({
-                title: "Guide utilisateur",
-                src: "https://u2l.fr/guidewa",
-                allowApi: false,
-                allow: "microphone; camera",
-                position: "center",
-            }, () => WA.ui.modal.closeModal())
-        }
-    });
+    // // Bouton guide
+    // console.log('Ajout du bouton Guide utilisateur');
+    // WA.ui.actionBar.addButton({
+    //     id: 'help-btn',
+    //     type: 'action',
+    //     imageSrc: root + '/help.svg',
+    //     toolTip: "Guide utilisateur",
+    //     callback: () => {
+    //         WA.ui.modal.openModal({
+    //             title: "Guide utilisateur",
+    //             src: "https://u2l.fr/guidewa",
+    //             allowApi: false,
+    //             allow: "microphone; camera",
+    //             position: "center",
+    //         }, () => WA.ui.modal.closeModal())
+    //     }
+    // });
 
-    // Bouton évaluation
-    console.log('Ajout du bouton Évaluation');
-    WA.ui.actionBar.addButton({
-        id: 'evaluation-btn',
-        type: 'action',
-        imageSrc: root + '/star.svg',
-        toolTip: "Évaluation",
-        callback: () => {
-            WA.ui.modal.openModal({
-                title: "Guide utilisateur",
-                src: "https://u2l.fr/evalsantewa",
-                allowApi: false,
-                allow: "microphone; camera",
-                position: "center",
-            }, () => WA.ui.modal.closeModal())
-        }
-    });
+    // // Bouton évaluation
+    // console.log('Ajout du bouton Évaluation');
+    // WA.ui.actionBar.addButton({
+    //     id: 'evaluation-btn',
+    //     type: 'action',
+    //     imageSrc: root + '/star.svg',
+    //     toolTip: "Évaluation",
+    //     callback: () => {
+    //         WA.ui.modal.openModal({
+    //             title: "Guide utilisateur",
+    //             src: "https://u2l.fr/evalsantewa",
+    //             allowApi: false,
+    //             allow: "microphone; camera",
+    //             position: "center",
+    //         }, () => WA.ui.modal.closeModal())
+    //     }
+    // });
 
    /* WA.ui.actionBar.addButton({
         id: 'move-btn',
