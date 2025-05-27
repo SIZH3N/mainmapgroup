@@ -3845,7 +3845,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.crazygames.com\/embed\/golf-orbit"
+                         "value":"https:\/\/www.crazygames.com\/embed\/pacman"
                         }, 
                         {
                          "name":"openWebsiteAllowApi",
