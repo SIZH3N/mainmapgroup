@@ -2565,9 +2565,51 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":27.3333333333333,
+                 "width":12.3333333333333,
                  "x":323.333333333333,
                  "y":676.666666666666
+                }, 
+                {
+                 "height":27.6666666666667,
+                 "id":321,
+                 "name":"mohammadaliCal",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/calendar.google.com\/calendar\/embed?src=3ef79b34d0985c9a867073276736b68c8e9647152c6ed87cb8937139e98cc3b6%40group.calendar.google.com&ctz=Asia\/Tehran&mode=WEEK"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"MohammadAli's calendar"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"int",
+                         "value":40
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":13.9999999999999,
+                 "x":428.333333333333,
+                 "y":674.666666666666
                 }, 
                 {
                  "height":35,
@@ -2859,8 +2901,8 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":29.6666666666667,
-                 "x":607.333333333333,
+                 "width":15.3333333333333,
+                 "x":621.666666666666,
                  "y":676.666666666667
                 }, 
                 {
@@ -3198,7 +3240,8 @@
                  "width":26.6666666666667,
                  "x":103,
                  "y":516
-                }, 
+                },
+            
                 {
                  "height":218,
                  "id":274,
@@ -3230,8 +3273,7 @@
                  "width":254,
                  "x":0.666666666666663,
                  "y":736.666666666667
-                },
-            
+                }, 
                 {
                  "height":76,
                  "id":277,
@@ -4171,7 +4213,7 @@
          "y":0
         }],
  "nextlayerid":254,
- "nextobjectid":321,
+ "nextobjectid":322,
  "orientation":"orthogonal",
  "properties":[
         {
