@@ -6,8 +6,9 @@ console.log('Script started successfully');
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
+    WA.player.tags.push("room1");
     console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags)
+    console.log('Player tags: ', WA.player.tags)
     WA.player.setOutlineColor(0, 200, 135);
     WA.room.onEnterLayer("roofZone").subscribe(() => {
         WA.room.hideLayer('Roof1');
@@ -32,7 +33,7 @@ WA.onInit().then(() => {
 
     let ressourcesUrl: any;
     //let githubUrl: any;
-    if(WA.player.tags.includes("room1")) {
+    if (WA.player.tags.includes("room1")) {
         ressourcesUrl = WA.state.loadVariable('ressourcesRoom1') as string;
         //githubUrl = WA.state.loadVariable('gitRoom1') as string;
         console.log("As room1 right");
@@ -147,14 +148,14 @@ WA.onInit().then(() => {
                     position: 'right',
                 });
             }
-        }); 
+        });
     })
     WA.room.onLeaveLayer('helpZone').subscribe(() => {
         helpZone.remove();
     })
 
     let startZone: any;
-    setTimeout(function() {
+    setTimeout(function () {
         startZone = WA.ui.displayActionMessage({
             message: "<img src='https://workadventu.re/wp-content/uploads/2025/02/keyboard.gif' width='40' style='width: 40px !important;' id='keyboard-info' />",
             callback: () => {
@@ -178,7 +179,7 @@ WA.onInit().then(() => {
                     position: 'right',
                 });
             }
-        }); 
+        });
     })
     WA.room.area.onLeave('helpZoneRight').subscribe(() => {
         helpZone.remove();
@@ -191,4 +192,4 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
-export {};
+export { };
