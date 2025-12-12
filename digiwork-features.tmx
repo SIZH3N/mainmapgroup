@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="1">
+ <properties>
+  <property name="mapCopyright">Credits: WorkAdventure (https://WorkAdventu.re) 
+License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)</property>
+  <property name="mapDescription" value="A perfect virtual office to get started with WorkAdventure!"/>
+  <property name="mapImage" value="office.png"/>
+  <property name="mapName" value="Office"/>
+  <property name="script" value="src/sample.ts"/>
+ </properties>
  <tileset firstgid="1" name="digiwork-gif" tilewidth="32" tileheight="32" tilecount="1" columns="1">
   <image source="tilesets/digiwork-gif.png" width="32" height="32"/>
  </tileset>
